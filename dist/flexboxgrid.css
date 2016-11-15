@@ -75,6 +75,11 @@
   padding-left: 0.5rem;
 }
 
+.hidden-xs {
+  visibility: hidden;
+  display: none;
+}
+
 .col-xs {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
@@ -303,6 +308,13 @@
     flex: 0 0 auto;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+    visiblity: visible;
+    display: block;
+  }
+
+  .hidden-sm {
+    visibility: hidden;
+    display: none;
   }
 
   .col-sm {
@@ -534,6 +546,13 @@
     flex: 0 0 auto;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+    visibility: visible;
+    display: blockM;
+  }
+
+  .hidden-md {
+    visibility: hidden;
+    display: none;
   }
 
   .col-md {
@@ -765,6 +784,13 @@
     flex: 0 0 auto;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+    visibility: visible;
+    display: block;
+  }
+
+  .hidden-lg {
+    visibility: hidden;
+    display: none;
   }
 
   .col-lg {

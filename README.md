@@ -1,9 +1,34 @@
 Flexbox Grid
 ===========
-
+Forked from original project: [kristoferjoseph/flexboxgrid](https://github.com/kristoferjoseph/flexboxgrid) -
 [flexboxgrid.com](http://flexboxgrid.com)
 
 Grid based on the `flex` display property.
+
+Usage
+---------
+The only difference between the original one and this fork is the implementation of `hidden-XX` class.
+
+Example:
+```html
+<div class="row">
+    <div class="col-xs-12 col-md-4 col-lg-6">
+        <p>This one is always visible</p>
+    </div>
+    <div class="col-xs-12 col-md-4 hidden-lg">
+        <p>This one is hidden on large devices</p>
+    </div>
+    <div class="col-xs-12 col-md-4 col-lg-6">
+        <p>This one is always visible</p>
+    </div>
+</div>
+```
+
+All hidden classes:
+- `hidden-xs` : Hidden on extra-small devices
+- `hidden-sm` : Hidden on small devices
+- `hidden-md` : Hidden on medium devices
+- `hidden-lg` : Hidden on large devices
 
 Install
 ---------

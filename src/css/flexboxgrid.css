@@ -80,6 +80,11 @@
   padding-left: var(--half-gutter-width, 0.5rem);
 }
 
+.hidden-xs {
+    visibility: hidden;
+    display: none;
+}
+
 .col-xs {
   flex-grow: 1;
   flex-basis: 0;
@@ -272,6 +277,13 @@
     flex: 0 0 auto;
     padding-right: var(--half-gutter-width, 0.5rem);
     padding-left: var(--half-gutter-width, 0.5rem);
+    visiblity: visible;
+    display: block;
+  }
+
+  .hidden-sm {
+      visibility: hidden;
+      display: none;
   }
 
   .col-sm {
@@ -467,6 +479,13 @@
     flex: 0 0 auto;
     padding-right: var(--half-gutter-width, 0.5rem);
     padding-left: var(--half-gutter-width, 0.5rem);
+    visibility: visible;
+    display: blockM
+  }
+
+  .hidden-md {
+      visibility: hidden;
+      display: none;
   }
 
   .col-md {
@@ -662,6 +681,13 @@
     flex: 0 0 auto;
     padding-right: var(--half-gutter-width, 0.5rem);
     padding-left: var(--half-gutter-width, 0.5rem);
+    visibility: visible;
+    display: block;
+  }
+
+  .hidden-lg {
+      visibility: hidden;
+      display: none;
   }
 
   .col-lg {
@@ -821,4 +847,3 @@
     order: 1;
   }
 }
-
